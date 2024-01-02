@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">logintest</string>
+    <string name="game1">Game 1</string>
+    <string name="game2">Game 2</string>
+    <string name="game1_description">Click to start Game 1</string>
+    <string name="game2_description">Click to start Game 2</string>
+</resources>
