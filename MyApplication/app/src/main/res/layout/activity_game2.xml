@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    tools:context=".Game2">
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/startWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start word"
+        android:textSize="24sp"
+        android:layout_below="@id/instructions"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/shuffleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shuffle"
+        android:layout_below="@id/startWord"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:enabled="false"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/inputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a word"
+        android:layout_below="@id/shuffleButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:enabled="false"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:textSize="24sp"
+        android:layout_below="@id/inputField"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timer"
+        android:textSize="24sp"
+        android:layout_below="@id/score"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_below="@id/timer"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_below="@id/timer"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:enabled="false"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_below="@id/resetButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/viewHistoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View History"
+        android:layout_below="@id/exitButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

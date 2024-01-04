@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".language">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button_game1"
+            style="@style/CustomButton"
+            android:text="Start Game 1"
+            android:onClick="startGame1" />
+
+        <Button
+            android:id="@+id/button_game2"
+            style="@style/CustomButton"
+            android:text="Start Game 2"
+            android:onClick="startGame2" />
+
+        <Button
+            android:id="@+id/button_game3"
+            style="@style/CustomButton"
+            android:text="Start Game 3"
+            android:onClick="startGame3" />
+
+        <Button
+            android:id="@+id/button_game4"
+            style="@style/CustomButton"
+            android:text="Start Game 4"
+            android:onClick="startGame4" />
+
+    </LinearLayout>
+
+</RelativeLayout>

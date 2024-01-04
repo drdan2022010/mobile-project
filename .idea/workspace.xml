@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ae3204-8fb8-451c-abf0-e6f101d90090" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyApplication/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyApplication/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyApplication/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b5ae3204-8fb8-451c-abf0-e6f101d90090" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,8 +29,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/ducba/OneDrive/Tài liệu/GitHub/mobile-project/MyApplication"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/MyApplication"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
