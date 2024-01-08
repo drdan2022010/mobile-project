@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Hiển thị thẻ ngẫu nhiên -->
+    <LinearLayout
+        android:id="@+id/cardsLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <!-- Dòng thứ nhất cho thẻ ngẫu nhiên -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+
+        <!-- Dòng thứ hai cho thẻ ngẫu nhiên -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Hiển thị lựa chọn đáp án -->
+    <LinearLayout
+        android:id="@+id/answersLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/cardsLinearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <!-- Dòng thứ nhất cho lựa chọn đáp án -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/answerImageView1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp" />
+
+            <ImageView
+                android:id="@+id/answerImageView2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+
+        <!-- Dòng thứ hai cho lựa chọn đáp án -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/answerImageView3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp" />
+
+            <ImageView
+                android:id="@+id/answerImageView4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scoreLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/scoreDisplayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Score: 0"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/highScoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="High Score: 0"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

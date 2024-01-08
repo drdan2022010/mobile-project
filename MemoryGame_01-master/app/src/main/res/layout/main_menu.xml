@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospitally Testing Game"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"/>
+
+    <Button
+        android:id="@+id/game1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game 1"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp"
+        android:onClick="@{MainActivity.startGame1}"/>
+
+    <Button
+        android:id="@+id/game2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game 2"
+        android:layout_below="@id/game1Button"
+        android:layout_marginTop="8dp"
+        android:onClick="@{MainActivity.startGame2}"/>
+
+    <Button
+        android:id="@+id/game3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game 3"
+        android:layout_below="@id/game2Button"
+        android:layout_marginTop="8dp"
+        android:onClick="@{MainActivity.startGame3}"/>
+
+    <Button
+        android:id="@+id/game4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game 4"
+        android:layout_below="@id/game3Button"
+        android:layout_marginTop="8dp"
+        android:onClick="@{MainActivity.startGame4}"/>
+
+
+</RelativeLayout>

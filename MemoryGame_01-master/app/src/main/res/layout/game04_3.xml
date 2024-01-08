@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_constraintBottom_toTopOf="@+id/returnButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <Button
+            android:id="@+id/returnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Return"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="8dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="89dp"
+        android:layout_y="639dp"
+        android:text="Start" />
+
+    <ImageView
+        android:id="@+id/boat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="163dp"
+        android:layout_y="495dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ship" />
+
+    <ImageView
+        android:id="@+id/shark1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="20dp"
+        android:layout_y="100dp"
+        android:src="@drawable/shark" />
+
+    <ImageView
+        android:id="@+id/shark2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="341dp"
+        android:layout_y="110dp"
+        android:src="@drawable/shark" />
+
+    <ImageView
+        android:id="@+id/shark3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="259dp"
+        android:layout_y="163dp"
+        android:src="@drawable/shark" />
+
+    <ImageView
+        android:id="@+id/shark4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="123dp"
+        android:layout_y="80dp"
+        android:src="@drawable/shark" />
+
+    <ImageView
+        android:id="@+id/shark5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="73dp"
+        android:layout_y="188dp"
+        android:src="@drawable/shark" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="224dp"
+        android:layout_y="640dp"
+        android:background="#000000"
+        android:padding="16dp"
+        android:text="Score: 0"
+        android:textColor="#FFFFFF" />
+
+</AbsoluteLayout>

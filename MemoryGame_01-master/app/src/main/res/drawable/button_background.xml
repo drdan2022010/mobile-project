@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffcc00"/> <!-- Màu khi nút được nhấn -->
+            <stroke android:width="1dp" android:color="#000000"/> <!-- Viền màu đen -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffff"/> <!-- Màu nền bình thường của nút -->
+            <stroke android:width="1dp" android:color="#000000"/> <!-- Viền màu đen -->
+        </shape>
+    </item>
+</selector>

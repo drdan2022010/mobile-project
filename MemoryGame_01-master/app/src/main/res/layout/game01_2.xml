@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Memory Game 02"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+            android:id="@+id/cardImageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/card_description"
+            android:onClick="onCardClick"
+            android:tag="card_1"
+            android:visibility="visible"
+            android:layout_marginStart="20dp"/>
+
+            <ImageView
+                android:id="@+id/cardImageView2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/card_description"
+                android:onClick="onCardClick"
+                android:tag="card_2"
+                android:visibility="visible"
+                android:layout_marginStart="20dp"/>
+
+            <ImageView
+                android:id="@+id/cardImageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/card_description"
+                android:onClick="onCardClick"
+                android:tag="card_3"
+                android:visibility="visible"
+                android:layout_marginStart="20dp"/>
+
+            <ImageView
+                android:id="@+id/cardImageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/card_description"
+                android:onClick="onCardClick"
+                android:tag="card_4"
+                android:visibility="visible"
+                android:layout_marginStart="20dp"/>
+
+            <ImageView
+                android:id="@+id/cardImageView5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/card_description"
+                android:onClick="onCardClick"
+                android:tag="card_5"
+                android:visibility="visible"
+                android:layout_marginStart="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score: 0"
+                android:layout_marginEnd="16dp"/>
+
+            <TextView
+                android:id="@+id/highScoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Score: 0"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restart"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</LinearLayout>

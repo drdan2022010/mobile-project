@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textViewMemoryGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MemoryGame"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="20px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewBrainTrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The expected content of BrainTrain application in the next version"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/textViewMemoryGame"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20px"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal"
+        />
+
+
+    <Button
+        android:id="@+id/buttonChoice1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/textViewBrainTrain"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/darker_gray" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonChoice1"
+        android:layout_alignLeft="@id/buttonChoice1"
+        android:layout_alignStart="@id/buttonChoice1"
+        android:layout_alignRight="@id/buttonChoice1"
+        android:layout_alignEnd="@id/buttonChoice1"
+        android:layout_marginTop="10dp"
+        android:text="Game 01"
+        android:gravity="center" />
+
+    <!-- Button Choice 2 and its Title -->
+    <Button
+        android:id="@+id/buttonChoice2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/textViewBrainTrain"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonChoice2"
+        android:layout_alignLeft="@id/buttonChoice2"
+        android:layout_alignStart="@id/buttonChoice2"
+        android:layout_alignRight="@id/buttonChoice2"
+        android:layout_alignEnd="@id/buttonChoice2"
+        android:layout_marginTop="10dp"
+        android:text="Game 02"
+        android:gravity="center" />
+
+    <!-- Button Choice 3 and its Title -->
+    <Button
+        android:id="@+id/buttonChoice3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/textViewBrainTrain"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonChoice3"
+        android:layout_alignLeft="@id/buttonChoice3"
+        android:layout_alignStart="@id/buttonChoice3"
+        android:layout_alignRight="@id/buttonChoice3"
+        android:layout_alignEnd="@id/buttonChoice3"
+        android:layout_marginTop="10dp"
+        android:text="Game 03"
+        android:gravity="center" />
+
+</RelativeLayout>
