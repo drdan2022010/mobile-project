@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyMemoryGame01</string>
+    <string name="app_name">Braintrain</string>
     <string name="game1">Game 1</string>
     <string name="game2">Game 2</string>
     <string name="game1_description">Click to start Game 1</string>

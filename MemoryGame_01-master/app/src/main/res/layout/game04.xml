@@ -8,7 +8,7 @@
         android:id="@+id/textViewMemoryGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MemoryGame"
+        android:text="Attention"
         android:textSize="24sp"
         android:textColor="@android:color/black"
         android:paddingTop="20px"
